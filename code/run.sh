@@ -1,4 +1,4 @@
-#!/bin/bash    "9323" "6538" "7426" 
+#!/bin/bash  
 seeds=("7900" ) 
 for seed in "${seeds[@]}"; do
     python train.py \
